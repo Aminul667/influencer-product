@@ -1,22 +1,41 @@
 /* import font */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap");
 
+/* common styles */
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
 a {
-  color: #3a3a3a;
   text-decoration: none;
 }
 
-/* header */
+.btn-prebook {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #e02c6d;
+  border: 0;
+  border-radius: 41px;
+  padding: 10px 24px;
+}
+
+/* header starts*/
+.header {
+  margin: 87px 120px 70px;
+}
+
+/* navigation bars styles*/
 .nav {
-  margin: 87px 120px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
+}
+
+.nav a {
+  color: #3a3a3a;
 }
 
 .nav-title {
@@ -34,3 +53,47 @@ a {
   display: flex;
   column-gap: 34px;
 }
+
+/* banner styles */
+.banner {
+  display: flex;
+  column-gap: 130px;
+  align-items: center;
+}
+
+.banner-info a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.banner-title {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 52px;
+  margin-bottom: 16px;
+}
+
+.banner-description {
+  color: #3a3a3a;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.banner-img img {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 33px 30px 2px;
+}
+/* header ends*/
+
+/* site container styles start */
+.site-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 165px 100px;
+    padding: 35px 62px;
+}
+/* site container styles end */
