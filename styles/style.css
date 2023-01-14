@@ -1,0 +1,36 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+/* header */
+.nav {
+  margin: 87px 120px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav-bars li {
+  list-style: none;
+  font-weight: 600;
+}
+
+.nav-bars {
+  display: flex;
+  column-gap: 34px;
+}
