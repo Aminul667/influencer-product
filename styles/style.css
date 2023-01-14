@@ -11,6 +11,14 @@ a {
   text-decoration: none;
 }
 
+.section-title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .btn-prebook {
   color: #ffffff;
   font-weight: 700;
@@ -19,6 +27,35 @@ a {
   border: 0;
   border-radius: 41px;
   padding: 10px 24px;
+}
+
+.collection-title {
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+  margin: 16px 0 6px;
+}
+
+.collection-price {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.collection-stars {
+  color: #fb8200;
+}
+
+.rate {
+  color: #5e6366;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.collection-description {
+  color: #787885;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 /* header starts*/
@@ -89,11 +126,30 @@ a {
 /* header ends*/
 
 /* site container styles start */
-.site-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 70px 165px 100px;
-    padding: 35px 62px;
+.site-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 165px 100px;
+  padding: 35px 62px;
 }
 /* site container styles end */
+
+/* popular collection styles start */
+.popular-collection {
+  margin: 0px 196px;
+}
+
+.collection {
+  padding: 17px 14px;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
