@@ -95,12 +95,12 @@ body {
   text-decoration: none;
 }
 
-.banner-img-container{
+.banner-img-container {
   width: 44rem;
   margin-left: 13rem;
 }
 
-.banner-img{
+.banner-img {
   background-image: url("../images/Circle\ design.svg");
   background-size: cover;
   background-position: center;
@@ -109,4 +109,60 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+/* || MAIN STYLES */
+/* site container */
+.site-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 7rem 0 10rem;
+}
+
+.collection-title {
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.collection-container {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.collection-info {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 1.7rem 1.5rem 7.3rem;
+}
+
+.collection-info img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.6rem;
+}
+
+.collection-name {
+  color: #18191f;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+
+.collection-price {
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.rate {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #5e6366;
+}
+
+.stars{
+  color: #FB8200;
 }
