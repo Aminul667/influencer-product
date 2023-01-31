@@ -119,6 +119,7 @@ body {
   margin: 7rem 0 10rem;
 }
 
+/* popular collection container */
 .collection-title {
   font-weight: 600;
   font-size: 2.8rem;
@@ -163,6 +164,73 @@ body {
   color: #5e6366;
 }
 
-.stars{
-  color: #FB8200;
+.stars {
+  color: #fb8200;
+  margin-bottom: 1rem;
+}
+
+.btn-see-more {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: rgba(224, 44, 109, 0.87);
+  border: 0;
+  float: right;
+  margin-top: 5rem;
+  background-color: white;
+}
+
+/* featured-product */
+.featured-product {
+}
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.section-info-container {
+  padding-left: 9.6rem;
+}
+.section-title {
+  color: #0a0826;
+  font-weight: 700;
+  font-size: 3.8rem;
+}
+
+.section-description {
+  color: #6c6c6c;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 1.6rem 0;
+}
+
+.btn-join {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #ffffff;
+  padding: 1rem 2.4rem;
+  border: 0;
+  background-color: #e02c6d;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  background-color: #0a0826;
+  padding: 5rem 0;
+  margin: 10rem -12rem 0;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.footer-description {
+  color: #d9dbe1;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0.3rem 0;
 }
